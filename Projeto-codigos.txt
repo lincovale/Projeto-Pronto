@@ -1,0 +1,345 @@
+Todos os comandos que foram realizados para a Execução do Projeto
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto
+$ ls
+'Aula 1 - Introdução de como vai ser o projeto.docx'
+'Aula 2 - Relembrando.docx'
+'Aula 3 - Como Será o Desafio.docx'
+'Aula 4 - Descrição do Projeto.docx'
+'Enviar Projeto'/
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto
+$ cd Enviar Projeto/
+bash: cd: too many arguments
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto
+$ cd enviar projeto
+bash: cd: too many arguments
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto
+$ cd 'Enviar Projeto'/
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto
+$ git init
+Initialized empty Git repository in C:/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto/.git/
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto (master)
+$ ls -a
+./  ../  .git/
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto (master)
+$ ls
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto (master)
+$ cd .git
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto/.git (GIT_DIR!)
+$ cd .git/
+bash: cd: .git/: No such file or directory
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto/.git (GIT_DIR!)
+$ ls
+HEAD  config  description  hooks/  info/  objects/  refs/
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto/.git (GIT_DIR!)
+$ cd ..
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto (master)
+$
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "Aula 1 - Introdu\303\247\303\243o de como vai ser o projeto.docx"
+        Aula 2 - Relembrando.docx
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+------- Anotações minhas para explicar o código antes e depois dessa anotação: quando eu dei um “git status” foi exibido a mim, que foram introduzidos alguns arquivos .docx, porém eu desfiz a introdução e dei um “git status” novamente para ver a mensagem de “no commits yet...”, e assim ter mais aproveitamento de tudo que eu aprendi e vi no curso (e assim ver na prática).--------------
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "Aula 1 - Introdu\303\247\303\243o de como vai ser o projeto.docx"
+        Aula 2 - Relembrando.docx
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto (master)
+$ git add *
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   "Aula 1 - Introdu\303\247\303\243o de como vai ser o projeto.docx"
+        new file:   Aula 2 - Relembrando.docx
+
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto (master)
+$
+--------Os comandos até aqui foram para adicionar todos o arquivos.docx introduzidos na pasta, agora vamos commitar, conforme o aviso do Git acima---------------
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto (master)
+$ git commit -m "Primeiro commit, das aulas 1 e 2"
+[master (root-commit) 700d71e] Primeiro commit, das aulas 1 e 2
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 "Aula 1 - Introdu\303\247\303\243o de como vai ser o projeto.docx"
+ create mode 100644 Aula 2 - Relembrando.docx
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto (master)
+$ git push origin master
+fatal: 'origin' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto (master)
+$
+
+------- Conforme informado acima pelo Git, não foi encontrado o repositório remoto. Portanto será criado um novo repositório do github e será apontado lá no git.
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto (master)
+$ git remote add origin Please make sure you have the correct access rights
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto (master)
+$ and the repository exists.
+bash: and: command not found
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto (master)
+$ git remote add origin https://github.com/lincovale/Enviar-Projeto#:~:text=remote%20add%20origin-,https%3A//github.com/lincovale/Enviar%2DProjeto.git,-git%20branch%20%2D
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto (master)
+$ git remote -v
+origin  https://github.com/lincovale/Enviar-Projeto#:~:text=remote%20add%20origin-,https%3A//github.com/lincovale/Enviar%2DProjeto.git,-git%20branch%20%2D (fetch)
+origin  https://github.com/lincovale/Enviar-Projeto#:~:text=remote%20add%20origin-,https%3A//github.com/lincovale/Enviar%2DProjeto.git,-git%20branch%20%2D (push)
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto (master)
+$ git remote add origin https://github.com/lincovale/Enviar-Projeto.git
+error: remote origin already exists.
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto (master)
+$ ^C
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto (master)
+$
+
+--------depois de alguns erros, acima podemos ver que deu certo, ao apontar a URL do repositório remoto para o repositório local------------------------------------------------------
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto (master)
+$ git push origin master
+fatal: https://github.com/lincovale/Enviar-Projeto#:~:text=remote%20add%20origin-,https%3A//github.com/lincovale/Enviar%2DProjeto.git,-git%20branch%20%2D/info/refs not valid: is this a git repository?
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Enviar Projeto (master)
+$
+
+--------------------Deu erro, conforme mostra acima, na hora de copiar a URL do repositório remoto, colou algo mais, eu acho. Será apagado ambos os repositórios, local e remoto, para tentar corrigir-----------------------------------------------------------------------
+
+--------------------Iniciei um repositório loca novo e um remoto novo---------------------------------------
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto
+$ ls
+'Aula 1 - Introdução de como vai ser o projeto.docx'
+'Aula 2 - Git_Pasta criada para praticar'/
+'Aula 2 - Relembrando.docx'
+'Aula 3 - Como Será o Desafio.docx'
+'Aula 4 - Cont_Desenvolvimento.docx'
+'Aula 4 - Descrição do Projeto.docx'
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto
+$ mkdir Projeto Pronto
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto
+$ c ..
+bash: c: command not found
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto
+$ ls
+'Aula 1 - Introdução de como vai ser o projeto.docx'
+'Aula 2 - Git_Pasta criada para praticar'/
+'Aula 2 - Relembrando.docx'
+'Aula 3 - Como Será o Desafio.docx'
+'Aula 4 - Cont_Desenvolvimento.docx'
+'Aula 4 - Descrição do Projeto.docx'
+ Projeto/
+ Pronto/
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto
+$ ls
+'Aula 1 - Introdução de como vai ser o projeto.docx'
+'Aula 2 - Git_Pasta criada para praticar'/
+'Aula 2 - Relembrando.docx'
+'Aula 3 - Como Será o Desafio.docx'
+'Aula 4 - Cont_Desenvolvimento.docx'
+'Aula 4 - Descrição do Projeto.docx'
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto
+$ mkdir Projeto-Pronto
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto
+$ ls
+'Aula 1 - Introdução de como vai ser o projeto.docx'
+'Aula 2 - Git_Pasta criada para praticar'/
+'Aula 2 - Relembrando.docx'
+'Aula 3 - Como Será o Desafio.docx'
+'Aula 4 - Cont_Desenvolvimento.docx'
+'Aula 4 - Descrição do Projeto.docx'
+ Projeto-Pronto/
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto
+$ ls
+'Aula 1 - Introdução de como vai ser o projeto.docx'
+'Aula 2 - Git_Pasta criada para praticar'/
+'Aula 2 - Relembrando.docx'
+'Aula 3 - Como Será o Desafio.docx'
+'Aula 4 - Cont_Desenvolvimento.docx'
+'Aula 4 - Descrição do Projeto.docx'
+ Projeto-Pronto/
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto
+$ cd Projeto-Pronto
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Projeto-Pronto
+$ ls
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Projeto-Pronto
+$ ls -a
+./  ../
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Projeto-Pronto
+$ git init
+Initialized empty Git repository in C:/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Projeto-Pronto/.git/
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Projeto-Pronto (master)
+$ ls -a
+./  ../  .git/
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Projeto-Pronto (master)
+$ git status
+On branch master
+
+No commits yet
+
+nothing to commit (create/copy files and use "git add" to track)
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Projeto-Pronto (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        "Aula 1 - Introdu\303\247\303\243o de como vai ser o projeto.docx"
+        Aula 2 - Relembrando.docx
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Projeto-Pronto (master)
+$ git add *
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Projeto-Pronto (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   "Aula 1 - Introdu\303\247\303\243o de como vai ser o projeto.docx"
+        new file:   Aula 2 - Relembrando.docx
+
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Projeto-Pronto (master)
+$ git commit origin master
+error: pathspec 'origin' did not match any file(s) known to git
+error: pathspec 'master' did not match any file(s) known to git
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Projeto-Pronto (master)
+$ git commit -m "Inserindo no projeto aulas 1 e 2"
+[master (root-commit) 29143ca] Inserindo no projeto aulas 1 e 2
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 "Aula 1 - Introdu\303\247\303\243o de como vai ser o projeto.docx"
+ create mode 100644 Aula 2 - Relembrando.docx
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Projeto-Pronto (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Projeto-Pronto (master)
+$ git remote add origin https://github.com/lincovale/Projeto-Pronto.git
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Projeto-Pronto (master)
+$ git remote -v
+origin  https://github.com/lincovale/Projeto-Pronto.git (fetch)
+origin  https://github.com/lincovale/Projeto-Pronto.git (push)
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Projeto-Pronto (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Projeto-Pronto (master)
+$ git push origin master
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 9.18 MiB | 2.01 MiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+remote:
+remote: Create a pull request for 'master' on GitHub by visiting:
+remote:      https://github.com/lincovale/Projeto-Pronto/pull/new/master
+remote:
+To https://github.com/lincovale/Projeto-Pronto.git
+ * [new branch]      master -> master
+
+fabia@LAPTOP-I3M5K9IH MINGW64 /c/LINCOLN/DIO/COGNIZANT - 07.12.2021/Git e Github - First Repository_Entrega Projeto/Projeto-Pronto (master)
+$
+
+
